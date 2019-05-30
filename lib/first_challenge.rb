@@ -17,7 +17,10 @@ def first_challenge
   contacts["Jon Snow"][:address] = "The Lord Commander's Rooms, The Wall, Westeros"
   
   contacts.each do |person, data|
-    puts "#{person}: #{data}"
+    #puts "#{person}: #{data}"
+    data.each do |attribute, value|
+      puts "#{attribute}: #{value}"
+    end
   end
   #your code here
 
