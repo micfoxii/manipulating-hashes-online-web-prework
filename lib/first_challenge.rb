@@ -23,7 +23,7 @@ def first_challenge
         end
       end
     end
-    contracts
+    contacts
   #your code here
 
 
