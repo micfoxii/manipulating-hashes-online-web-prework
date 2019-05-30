@@ -24,7 +24,6 @@ def first_challenge
       end
     end
     contracts
-  end
   #your code here
 
 
